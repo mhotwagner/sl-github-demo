@@ -1,0 +1,34 @@
+---
+yes: "Yes"
+no: "No"
+answers:
+  # button text to answer no to a question
+  no: "no"
+  # button text to answer yes to a question
+  yes: "yes"
+  # button text to refuse to answer a question
+  maybe: "maybe"
+
+greetings:
+  # simple greeting
+  hello: "Hello!"
+  # simple greeting with the user's name
+  hello_with_name: "Hello, %{name}!"
+  # welcome message for notifications
+  welcome_message: "Welcome to WeWork, %{name}."
+  # simple goodbye
+  goodbye: "Goodbye!"
+  # simple goodbye with the user's name
+  goodbye_with_name: "Goodbye, %{name}!"
+  # goodbye message for notifications
+  goodbye_message: "You are now leaving WeWork, %{name}.  Goodbye."
+
+# Notification status messages
+notification_messages:
+  messages_count:
+    one: "1 email"
+    other: "%{count} emails"
+  messages_notification:
+    zero: "You have no new messages"
+    one: "You have one new message"
+    other: "You have %%{count} new messages"
